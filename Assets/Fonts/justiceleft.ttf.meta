@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4169f6e03776ab14b90becc508e0378e
+timeCreated: 1512253840
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Justice Leftalic
+  fontNames:
+  - Justice Leftalic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

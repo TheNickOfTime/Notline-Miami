@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6df96e70857ccbd46b64740f938bc8c7
+timeCreated: 1512253840
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Justice Halftone
+  fontNames:
+  - Justice Halftone
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

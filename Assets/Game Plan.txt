@@ -1,0 +1,132 @@
+Game Plan - Notline Miami
+Due on December 18th.
+
+-Enemies-
+[] Switch Between behaviors (idle > moving, alert > patroling)
+[X] Enemies can pick up weapons
+[] Enemies can shoot weapons
+[X] Add Enemy Health Sliders
+
+
+
+
+To Do:
+
+Small Game.
+[X] Create a small video game with a small menu system.
+
+Levels.
+[X] You should have at least three different levels.
+[X] Each level has to be in its own scene.
+[ ] Set the screen resolution to 1024x768.
+[ ] At least one level has to be at least twice as big as the screen.
+[ ] At least one level has to be at least four times as big as the screen.
+[ ] If I beat a level, then continue to the next level. (Flexible)
+[ ] If I beat the last level, then I win. (Flexible)
+
+Hero.
+[X] The camera should follow the hero.
+[X] The hero should have a score.
+[X] The hero should have health.
+[X] The hero should have energy.
+
+Assets.
+[X] Make sure you use meaningful widget names.
+
+Scripts.
+[X] Make sure each menu has its own script.
+[X] Make sure all your member variables are private.
+[X] Use setters and getters to access private member variables.
+[X] Don't forget to use a game manager instance (the instance can be public).
+
+Main Menu.
+[X] Title of game (not a title screen, just make sure the main menu has the title of your game).
+[X] Press the play button to go to the selection menu.
+[X] Press the options button to open the options menu.
+[X] Press the quit button to quit.
+[X] Are you sure you want to quit?
+
+Options Menu
+[X] Widget to change the music volume.
+[X] Widget to change the sound effects volume.
+[X] Widget to turn the tutorial on and off.
+[X] It should remember your options the next time you play the game (hint use PlayerPrefs, we'll learn about them next week)
+[X] Press the back button to go back to the main menu.
+
+Selection Menu.
+[X] This can be one or two menus.
+[X] Select one of at least three different heroes.
+[X] Use a scrolling menu to select one of at least three different levels.
+[X] Make the level buttons big so you have to scroll the menu (put a screenshot on the button or put a descriptive paragraph).
+[X] Press back to go back to the previous menu.
+
+Tutorial.
+[X] If the tutorial is on, then you should have some kind of tutorial text.
+[X] It's ok if it's just the controls (like WASD to move and SPACE to fire).
+[X] If it's a really simple tutorial, don't keep it on the screen forever.
+[X] If the tutorial is off, then don't show the tutorial.
+
+Overlay.
+[X] Show the score.
+[X] Show the mini-map.
+[X] Put the rest in the overlay or in the game.
+[X] Show a health meter.
+[ ] Show the current/max health (eg "99/100"). ***YOU GAVE ME AN EXCEPTION FOR THIS PART
+[X] Show an energy bar (or something simliar).
+[X] Show the current/max energy (eg "50/100").
+
+Music and Sounds.
+[X] Your game should have background music.
+[X] Your game should have at least one sound.
+
+Pause Menu
+[X] Press escape to open the pause menu.
+[X] Press escape again to close the pause menu.
+[X] Press the continue button to continue playing the game.
+[X] Press the options button to open the options menu.
+[X] Make sure the options menu goes back to the pause menu.
+[X] Press the quit button to return to the main menu.
+[X] Are you sure you want to quit?
+
+3D UI
+[X] You should have some 3D UI in your game, for example,
+* You could make your main menu, options menu, and selection menu into a 3D UI.
+* OR you could make your overlay a 3D UI.
+* OR you could make your pause menu a 3D UI.
+* OR you could make in-game 3D UI like health bars.
+* OR some game elements could be 3D UI (like in-game clocks or in-game computer screens that you have to touch to open and close doors or something like that).
+
+Extra for an A
+You must do all of the following:
+
+Main Menu.
+[X] Press the credits button to open the credits menu.
+
+Credits Menu.
+[X] Show at least three credits (like designer, scripter, and artist).
+[X] Press the back button to go back to the main menu.
+
+Unlock Selection.
+[X] Add at least one hero that you have to unlock.
+[X] Add at least one level that you have to unlock.
+
+Number of Lives
+[] When you run out of health, you lose a life.
+[X] Don't show lives as a number, show each life as an icon (like "OOO" except don't use text, use sprites).
+[ ] When you run out of lives, it's game over.
+[X] Or something similar where you use icons to represent how many of something is left.  In this case, it does not have to lead to game over.
+
+High Score.
+[X] Add a high score to your game.
+[X] Show the high score in the overlay.
+[X] It should remember the high score the next time you play the game (hint use PlayerPrefs).
+
+Win Screen.
+[X] If you win the game, show the win screen.
+[X] Press the play again button to start a new game.
+[X] Press the quit button to return to the main menu.
+
+Game Over Screen.
+[X] If you lose the game, show the game over screen.
+[X] Press the play again button to start a new game.
+[X] Press the quit button to return to the main menu.

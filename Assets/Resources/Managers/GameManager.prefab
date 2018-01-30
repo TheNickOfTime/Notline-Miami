@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1984871727554646}
+  m_IsPrefabParent: 1
+--- !u!1 &1984871727554646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4482688840751430}
+  - component: {fileID: 114820906454604606}
+  - component: {fileID: 114848646182066700}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4482688840751430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1984871727554646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114820906454604606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1984871727554646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8d1bed72eba8f4cb75157c1b5ae79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114848646182066700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1984871727554646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00281fc8911cc64b83698e701bdc7fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StartMusic: Paris
+  m_LevelName: Level1
+  m_CharacterEntries:
+  - key: Richard
+    character: {fileID: 1144969688929160, guid: d5b0f18a905180f4892b312dd999d780,
+      type: 2}
+  - key: Tony
+    character: {fileID: 1518191774996470, guid: ff8664e922dd95f4f99e7351b228b459,
+      type: 2}
+  - key: Charlie
+    character: {fileID: 1223063123535744, guid: 01ad3e3306432f64199956d68fdf2818,
+      type: 2}
+  m_CompletionUnlocks:
+  - Level1Complete
+  - Mask2Unlocked
+  m_Player: {fileID: 0}
+  m_Enemies: []

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9e2e9e341225ce94c84a9eb0878c29dc
+timeCreated: 1512253840
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Justice Outline Semi-Italic
+  fontNames:
+  - Justice Outline Semi-Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
