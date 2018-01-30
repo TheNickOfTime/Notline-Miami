@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 874feaf7d92bb3548a3b97cf1d3ad04b
+timeCreated: 1512253840
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Justice Gradient
+  fontNames:
+  - Justice Gradient
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

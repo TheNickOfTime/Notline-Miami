@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 09e0272cb116de349b6e496cc3e4d890
+timeCreated: 1512253839
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Justice Laser
+  fontNames:
+  - Justice Laser
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

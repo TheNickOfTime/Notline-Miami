@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0335cccfedfc88f4b993fc5a7e04d8e3
+timeCreated: 1512253839
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Justice Gradient Outline
+  fontNames:
+  - Justice Gradient Outline
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

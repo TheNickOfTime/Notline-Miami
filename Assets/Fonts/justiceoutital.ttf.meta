@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8853ea13d4f431949bc4079849afa6c8
+timeCreated: 1512253840
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Justice Outline Italic
+  fontNames:
+  - Justice Outline Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
