@@ -36,7 +36,7 @@ public class LevelManager : MonoBehaviour
 
 	private IEnumerator WaitForAsync(int index)//Brings up loading screen while loading level in the background.
 	{
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene(2);
 		Time.timeScale = 1;
 		yield return null;
 
@@ -51,7 +51,7 @@ public class LevelManager : MonoBehaviour
 
 	private IEnumerator WaitForAsync(string name)
 	{
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene(2);
 		Time.timeScale = 1;
 		yield return null;
 

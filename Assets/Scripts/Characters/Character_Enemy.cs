@@ -186,9 +186,13 @@ public class Character_Enemy : Character
 
 	protected virtual void Unconscious()//Controls behavior while in Unconscious state
 	{
+		gameObject.layer = LayerMask.NameToLayer("IgnorePlayer");
+		// m_CharacterController.center = new Vector3(m_CharacterController.center.x, m_CharacterController.center.y + 0.25f, m_CharacterController.center.z);
 		m_UnconsciousTimer += Time.deltaTime;
 		if(m_UnconsciousTimer > m_UnconciousTime)//After unconscious period, return to default state
 		{
+			gameObject.layer = LayerMask.NameToLayer("Enemy");
+			// m_CharacterController.center = new Vector3(m_CharacterController.center.x, m_CharacterController.center.y - 0.25f, m_CharacterController.center.z);
 			m_Anim.applyRootMotion = true;
 			m_Anim.SetBool("IsUnconscious", false);
 			SetState(m_DefaultState);
