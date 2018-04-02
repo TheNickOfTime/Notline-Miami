@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class UIInteractions_Canvas_MainMenu : UIInteractions_Canvas
 {
 	[Header("UI Components")]
-	[SerializeField] private Toggle m_TutorialToggle;
-	[SerializeField] private Button[] m_LevelButtons;
+	// [SerializeField] private Toggle m_TutorialToggle;
+	// [SerializeField] private Button[] m_LevelButtons;
 
 	[Header("Stats Components")]
 	[SerializeField] private StatEntry[] m_StatEntries;
@@ -22,41 +22,41 @@ public class UIInteractions_Canvas_MainMenu : UIInteractions_Canvas
 	{
 		base.Awake();
 
-		//Tutorial toggle stuff
-		if(PlayerPrefs.HasKey("Tutorial"))
-		{
-			SetTutorialToggle(GetTutorialPref());
-		}
-		else
-		{
-			Debug.LogWarning("'Tutorial' key does not exist in PlayerPrefs, creating new entry...");
-			PlayerPrefs.SetInt("Tutorial", 0);
-		}
+		// //Tutorial toggle stuff
+		// if(PlayerPrefs.HasKey("Tutorial"))
+		// {
+		// 	SetTutorialToggle(GetTutorialPref());
+		// }
+		// else
+		// {
+		// 	Debug.LogWarning("'Tutorial' key does not exist in PlayerPrefs, creating new entry...");
+		// 	PlayerPrefs.SetInt("Tutorial", 0);
+		// }
 
-		//Level button stuff
-		for (int i = 1; i < m_LevelButtons.Length; i++)
-		{
-			int levelNum = i;
-			string key = "Level" + levelNum + "Complete";
+		// //Level button stuff
+		// for (int i = 1; i < m_LevelButtons.Length; i++)
+		// {
+		// 	int levelNum = i;
+		// 	string key = "Level" + levelNum + "Complete";
 
-			if (PlayerPrefs.HasKey(key))
-			{
-				if (PlayerPrefs.GetInt(key) == 0)
-				{
-					m_LevelButtons[i].interactable = true;
-				}
-				else if (PlayerPrefs.GetInt(key) == 1)
-				{
-					m_LevelButtons[i].interactable = false;
-				}
-			}
-			else
-			{
-				Debug.LogWarning("'" + key + "' key does not exist in PlayerPrefs, creating new entry...");
-				PlayerPrefs.SetInt(key, 1);
-				m_LevelButtons[i].interactable = false;
-			}
-		}
+		// 	if (PlayerPrefs.HasKey(key))
+		// 	{
+		// 		if (PlayerPrefs.GetInt(key) == 0)
+		// 		{
+		// 			m_LevelButtons[i].interactable = true;
+		// 		}
+		// 		else if (PlayerPrefs.GetInt(key) == 1)
+		// 		{
+		// 			m_LevelButtons[i].interactable = false;
+		// 		}
+		// 	}
+		// 	else
+		// 	{
+		// 		Debug.LogWarning("'" + key + "' key does not exist in PlayerPrefs, creating new entry...");
+		// 		PlayerPrefs.SetInt(key, 1);
+		// 		m_LevelButtons[i].interactable = false;
+		// 	}
+		// }
 	}
 
 	private void Start()
@@ -70,10 +70,10 @@ public class UIInteractions_Canvas_MainMenu : UIInteractions_Canvas
 		SetTutorialPref(isOn);
 	}
 
-	private void SetTutorialToggle(bool isOn)
-	{
-		m_TutorialToggle.isOn = isOn;
-	}
+	// private void SetTutorialToggle(bool isOn)
+	// {
+	// 	m_TutorialToggle.isOn = isOn;
+	// }
 
 	private bool GetTutorialPref()
 	{

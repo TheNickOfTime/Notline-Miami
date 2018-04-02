@@ -31,30 +31,30 @@ public class UIInteractions_Canvas_Gameplay : UIInteractions_Canvas
 
 
 
-		for (int i = 1; i < m_MaskButtons.Length; i++)
-		{
-			int maskNum = i + 1;
-			string key = "Mask" + maskNum + "Unlocked";
+		// for (int i = 1; i < m_MaskButtons.Length; i++)
+		// {
+		// 	int maskNum = i + 1;
+		// 	string key = "Mask" + maskNum + "Unlocked";
 			
 
-			if (PlayerPrefs.HasKey(key))
-			{
-				if(PlayerPrefs.GetInt(key) == 0)
-				{
-					m_MaskButtons[i].interactable = true;
-				}
-				else if(PlayerPrefs.GetInt(key) == 1)
-				{
-					m_MaskButtons[i].interactable = false;
-				}
-			}
-			else
-			{
-				Debug.LogWarning("'" + key + "'" + " does not exist in PlayerPrefs, creating new entry...");
-				PlayerPrefs.SetInt(key, 1);
-				m_MaskButtons[i].interactable = false;
-			}
-		}
+		// 	if (PlayerPrefs.HasKey(key))
+		// 	{
+		// 		if(PlayerPrefs.GetInt(key) == 0)
+		// 		{
+		// 			m_MaskButtons[i].interactable = true;
+		// 		}
+		// 		else if(PlayerPrefs.GetInt(key) == 1)
+		// 		{
+		// 			m_MaskButtons[i].interactable = false;
+		// 		}
+		// 	}
+		// 	else
+		// 	{
+		// 		Debug.LogWarning("'" + key + "'" + " does not exist in PlayerPrefs, creating new entry...");
+		// 		PlayerPrefs.SetInt(key, 1);
+		// 		m_MaskButtons[i].interactable = false;
+		// 	}
+		// }
 	}
 
 	private void Start()

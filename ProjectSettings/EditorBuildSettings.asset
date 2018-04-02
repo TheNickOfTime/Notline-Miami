@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_SpringShow/ArtUSplash/ArtUSplash.unity
+    guid: a9ee260ade9b64c4ea3947a5582888b2
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 06726e7e3df38354a83dc1e6abaf009f
   - enabled: 1
