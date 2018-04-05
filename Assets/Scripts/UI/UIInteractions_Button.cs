@@ -109,4 +109,9 @@ public class UIInteractions_Button : MonoBehaviour
 	{
 		AudioManager.instance.PlaySFX("Click");
 	}
+
+	public void DebugMessage(string message)
+	{
+		Debug.Log(message);
+	}
 }
